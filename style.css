@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+}
+.nav-link:hover {
+    background-color: white;
+    color: #0000ff;
+}
+.jumbotron {
+    padding: 2rem;
+    background-color: #e2edff;
+}
+.jumbotron .img {
+    display: flex;
+    justify-content: center; 
+}
+.jumbotron .img img {
+    height: 170px;
+    border-radius: 50%;
+}
+.jumbotron h1 {
+    color: #000000c5;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+.jumbotron h3 {
+    color: #000000c5;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+ -webkit-user-select:none
+}
+.jumbotron ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: -45px;
+    gap: 10px;
+} 
+.jumbotron ul li a i{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #000000c5;
+} 
+.jumbotron ul li a i:hover {
+    color: #00000094;
+}
+#article {
+    background-color: #e2edff;
+    margin-top: -1px;
+}
+
+#article .row .col .card .card-body .card-title{
+    font-weight: bold;
+}
